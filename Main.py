@@ -109,10 +109,10 @@ def main():
     #Create the pure recommendations list
     recommendations = [recommendedItem for score, recommendedItem in rankings]
 
-    print(rankings)
-    print('Recommended items for user %s: ' % (chosenUserID), recommendations)
+    #print(rankings)
+    #print('Recommended items for user %s: ' % (chosenUserID), recommendations)
 
-
+    print('Top 5 recommended items (score, item) for user %s: ' % (chosenUserID), rankings[0:5])
 
 
 
